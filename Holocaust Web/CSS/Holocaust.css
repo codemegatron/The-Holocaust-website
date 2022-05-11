@@ -1,0 +1,149 @@
+
+   
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+/*all code © Fred Fisher */
+.Title{
+    color:crimson;
+    text-align:center;
+    background-color:#82a328;
+    border: 4px solid #111111;
+    border-radius: 10px;
+}
+html {
+  background: url(lodz_ghetto.jpg) no-repeat center center fixed;
+  background-size: cover;
+  /*height: 100%;
+  overflow: hidden;*/
+}
+body{
+    font-family: 'PT Sans', sans-serif;
+    color:floralwhite;
+}
+p{
+    font-family: 'PT Sans', sans-serif;
+    color:floralwhite;
+}
+nav ul{
+    list-style-type:none;
+    background-color:#c40b0b;
+    border: 4px solid #111111;
+    border-radius: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    padding: 16px;   
+}
+nav ul li {
+    display: inline;
+    border-right: 2px solid #111111;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+nav ul li:last-child {
+    border-right:none;
+}
+nav ul li a{
+    text-decoration: none;
+    text-align:center;
+    color:#111111;
+}
+}
+.small{
+    float:left;
+    height: 200px;
+    width:200px;
+}
+a{
+    font-size:20px;
+}
+.selected{
+    color:rgb(102, 102, 102);
+}
+nav li a:hover{
+    text-decoration:underline;
+}
+footer{
+    text-align:center;
+    background-color:#ffffff;
+    color:black;
+    padding:50px;
+}
+.copyright{
+    color:black;
+}
+body, html {
+    height: 100%;
+}
+
+.parallax { 
+    background: url(amazon-rainforest.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fun-fact{
+    border: 4px solid #00AFEB;
+    border-radius:10px;
+    padding:16px;
+    background-color:#8cea10;
+}
+.fun-fact::before{
+    color:black;
+    content: "Fun Fact: ";
+    font-weight: bold;
+}
+.disastrous-fact{
+    border: 4px solid #00AFEB;
+    border-radius:10px;
+    padding:16px;
+    background-color:#8cea10;
+}
+.disastrous-fact::before{
+    color:black;
+    content: "Disastrous Fact: ";
+    font-weight: bold;
+}
+section{
+    border: 4px solid black;
+    border-radius:16px;
+    padding: 16px;
+    background-color:#03fc22;
+}
+section p, h2{
+    color:black;
+}
+h2{
+    text-align:center;
+}
+section {
+	margin:10px;
+	margin-bottom:20px;
+}
+.title {
+	text-decoration:underline;
+}
+.animal {
+    height:275px;
+    width:auto;
+}
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
